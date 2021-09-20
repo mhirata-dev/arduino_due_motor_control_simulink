@@ -4,9 +4,10 @@ Arduino DueとX-NUCLEO-IHM07M1を使って，Simulink環境でモータをセン
 ## 環境
 1. Arduino Due
 2. X-NUCLEO-IHM07M1
-3. MATLAB/Simulink R2020a on Windows 10
-4. Simulink Support Package for Arduino Hardware
-5. MATLAB Support for MinGW-w64 C/C++ Compiler
+3. Motor: BR2804-1700KV
+4. MATLAB/Simulink R2020a on Windows 10
+5. Simulink Support Package for Arduino Hardware
+6. MATLAB Support for MinGW-w64 C/C++ Compiler
 ## ピン接続
 ピン接続は def_param.m に書かれています．制御器を20kHzの周期で計算するために，ハードウエア割り込みを使っています．Aruduino DueのD41をD2へ接続してください．
 ## 実行方法
